@@ -34,9 +34,8 @@ li {
   margin-bottom: 5px;
 }
 
-.container {
-  padding-left: 20px;
-  padding-right: 20px;
+.relative {
+  position: relative;
 }
 
 .header-container {
@@ -73,13 +72,11 @@ li {
   justify-content: center;
   top: 0;
   left: 0;
-  bottom: 0;
   right: 0;
+  bottom: 0;
   background: rgba(0, 0, 0, 0.75);
   opacity: 0;
   transition: opacity 0.3s;
-  padding-left: 30px;
-  padding-right: 30px;
 }
 
 .main-images-anchor-wrap:hover .main-images-caption {
